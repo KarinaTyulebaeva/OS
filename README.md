@@ -1,2 +1,2 @@
 # OS
-Operating System course labs
+Operating Systems course tasks
