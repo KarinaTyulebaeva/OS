@@ -1,0 +1,19 @@
+ex1:
+
+mkdir week1
+ls ../../usr/bin | grep gcc.* | sort -r > ex1.txt
+
+ex2:
+
+history > ex2.txt
+
+ex3:
+
+nano /root/week1/ex3.sh
+sh /root/week1/ex3.sh
+
+ex4:
+
+nano /root/week1/main.c
+gcc /root/week1/main.c -o hello
+./hello
