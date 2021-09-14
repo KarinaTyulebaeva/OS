@@ -1,7 +1,3 @@
-nano main.c
-
-//main program
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -16,20 +12,7 @@ int main() {
   return 0;
 }
 
-gcc -o ex1 main.c
-
-nano script.sh
-
-//Shell script
-
-for f in {1..10}
-    do
-    ./ex1
-    done
-
-sh script.sh
-
-//Output:
+/*Output:
 
 Hello from parent [1211-4317793]
 Hello from child [1212-4317793]
@@ -52,4 +35,5 @@ Hello from child [1228-4670049]
 Hello from parent [1229-4944481]
 Hello from child [1230-4944481]
 
-//Output parents and children were mixed because they were executed on different cores
+Output parents and children were mixed because they were executed on different cores
+*/
