@@ -27,6 +27,8 @@ for f in {1..10}
     ./ex1
     done
 
+sh script.sh
+
 //Output:
 
 Hello from parent [1211-4317793]
