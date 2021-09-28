@@ -61,9 +61,9 @@ int main() {
         }
     }
 
-    printf("P#\t AT\t BT\t ET\t TAT\t WT\n\n");
+    printf("Process#\t AT\t BT\t ET\t TAT\t WT\n\n");
     for (int i = 0; i < n; i++)
-        printf("P%d\t %d\t %d\t %d\t %d\t %d\n", i+1, AT[i], BT_original[i], ET[i], TAT[i], WT[i]);
+        printf("Process%d\t %d\t %d\t %d\t %d\t %d\n", i+1, AT[i], BT_original[i], ET[i], TAT[i], WT[i]);
     printf("Average TAT: %f\n", totalTAT/n);
     printf("Average WT: %f\n", totalWT/n);
 }
