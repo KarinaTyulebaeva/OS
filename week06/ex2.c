@@ -44,12 +44,12 @@ int main() {
 
         executed[pos] = true;
         current_time += BT[pos];
-        ET[pos] = current_time; // calculate ET
+        ET[pos] = current_time; 
 
-        TAT[pos] = ET[pos] - AT[pos]; // calculate TAT
+        TAT[pos] = ET[pos] - AT[pos]; 
         totalTAT += TAT[pos];
 
-        WT[pos] = TAT[pos] - BT[pos]; // calculate WT
+        WT[pos] = TAT[pos] - BT[pos]; 
         totalWT += WT[pos];
     }
   
