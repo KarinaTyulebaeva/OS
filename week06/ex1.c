@@ -37,7 +37,7 @@ int main() {
 
     printf("Processrocess#\t AT\t BT\t ET\t TAT\t WT\n\n");
     for (i = 0; i < n; i++)
-        printf("P%d\t %d\t %d\t %d\t %d\t %d\n", i+1, AT[i], BT[i], ET[i], TAT[i], WT[i]);
+        printf("Process%d\t %d\t %d\t %d\t %d\t %d\n", i+1, AT[i], BT[i], ET[i], TAT[i], WT[i]);
 
     printf("Average TAT: %f\n", totalTAT/n);
     printf("Average WT: %f\n", totalWT/n);
