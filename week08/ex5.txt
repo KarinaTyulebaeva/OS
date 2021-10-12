@@ -1,0 +1,3 @@
+The main difference between them is the following: phisical address is 
+real address which refers to address of real memory, but virtual address is
+an abstruction which refers to some virtual space allocated by the process
