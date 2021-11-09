@@ -1,0 +1,9 @@
+output:
+pe-Get some cappuccino!
+ep-I passed the Exam!
+acp-Get some cappuccino!
+pca-Get some cappuccino!
+pac-Get some cappuccino!
+cap-Get some cappuccino!
+apc-Get some cappuccino!
+
